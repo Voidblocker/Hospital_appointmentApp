@@ -33,8 +33,9 @@
         <link href="{% static "css/me.css" %}" rel="stylesheet" type="text/css"/> 
     </head>
     <body id="page-top">
-        <div>
+        <div class="firstdv">
             <h1>Appointment Booked Successfully</h1>
+            <a href="{% url 'home' %}"  rel="noopener noreferrer"><input type="button" value="Back to Our Homepage" />
         </div>
         {% comment %} <header>
             <div class="container">

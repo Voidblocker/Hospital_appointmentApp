@@ -1,7 +1,10 @@
-h1{
+.firstdv h1{
     text-align: center;
-    color: #207fdd;
+    color: red;
     font-family: 'Work Sans', sans-serif;
     font-size: 5em;
     margin-top: 20%;
+}
+#btnu {
+    text-align: center;
 }
